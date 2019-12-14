@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+	sayHi("Tom", 40);
+	sayHi("Mike", 53);
+	sayHi("Oscar, 23);
+	return 0;
+}
+void sayHi(char name[], int age) {
+	printf("Hello %s, You are %d\n", name, age);
+
+}
